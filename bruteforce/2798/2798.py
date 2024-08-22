@@ -13,7 +13,7 @@ for i in range(N):
             sum_ = list_[i] + list_[j] + list_[k]
             if sum_ <= M and result < sum_:
                 result = sum_
-            else: break
+        
 
 print(result)
 
